@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2012-03-01" view-index="0" gantt-divider-location="484" resource-divider-location="300" version="2.0">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="50" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="true"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="" month="1" date="1"/>
+        <date year="" month="1" date="6"/>
+        <date year="" month="4" date="25"/>
+        <date year="" month="5" date="1"/>
+        <date year="" month="6" date="2"/>
+        <date year="" month="8" date="15"/>
+        <date year="" month="11" date="1"/>
+        <date year="" month="12" date="8"/>
+        <date year="" month="12" date="25"/>
+        <date year="" month="12" date="26"/>
+        <date year="2005" month="3" date="28"/>
+        <date year="2006" month="4" date="17"/>
+        <date year="2007" month="4" date="9"/>
+        <date year="2008" month="3" date="24"/>
+        <date year="2009" month="4" date="13"/>
+        <date year="2010" month="4" date="5"/>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="115" name="3. Fase 1" meeting="false" start="2012-03-23" duration="61" complete="0" expand="false">
+            <task id="116" name="3.01 Pubblicazione bando prequalifica" color="#8cb6ce" meeting="true" start="2012-03-23" duration="1" complete="0" expand="true">
+                <depend id="119" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="119" name="3.02 Termine ricezione domande di partecipazione" color="#ff0033" meeting="false" start="2012-03-24" duration="45" complete="0" expand="true">
+                <depend id="122" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="122" name="3.03 Valutazione delle domande di partecipazione" color="#8cb6ce" meeting="false" start="2012-05-10" duration="15" complete="0" expand="true">
+                <depend id="128" type="2" difference="5" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="127" name="4. Fase 2" color="#8cb6ce" meeting="false" start="2012-05-30" duration="142" complete="0" expand="false">
+            <task id="128" name="4.01 Invio lettere di presentazione offerta a prequalificati" color="#8cb6ce" meeting="true" start="2012-05-30" duration="1" complete="0" expand="true">
+                <depend id="133" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="133" name="4.02 Termine ricezione delle offerte" color="#ff0000" meeting="false" start="2012-05-31" duration="80" complete="0" expand="true">
+                <depend id="145" type="2" difference="3" hardness="Strong"/>
+            </task>
+            <task id="145" name="4.03 Seduta pubblica I (busta A)" color="#8cb6ce" meeting="true" start="2012-08-24" duration="1" complete="0" expand="false">
+                <depend id="144" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="144" name="4.04 Invio richiesta comprova art. 48" color="#8cb6ce" meeting="true" start="2012-08-26" duration="1" complete="0" expand="false">
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="143" name="4.05 Termine ricezione documentazione art. 48" color="#ff0033" meeting="false" start="2012-08-27" duration="10" complete="0" expand="false">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="142" name="4.06 Valutazione della documentazione" color="#8cb6ce" meeting="false" start="2012-09-06" duration="10" complete="0" expand="false">
+                <depend id="141" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="141" name="4.07 Seduta pubblica II (apertura busta B)" color="#8cb6ce" meeting="true" start="2012-09-17" duration="1" complete="0" expand="false">
+                <depend id="140" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="140" name="4.08 Valutazione della CG" color="#8cb6ce" meeting="false" start="2012-09-18" duration="15" complete="0" expand="false">
+                <depend id="139" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="139" name="4.09 Seduta pubblica III (apertura busta C ed agg. provv.)" color="#8cb6ce" meeting="true" start="2012-10-04" duration="1" complete="0" expand="false">
+                <depend id="138" type="2" difference="15" hardness="Strong"/>
+            </task>
+            <task id="138" name="4.10 Aggiudicazione definitiva" color="#8cb6ce" meeting="true" start="2012-10-20" duration="1" complete="0" expand="false">
+                <depend id="250" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="236" name="4b. Fase 4" meeting="false" start="2012-06-03" duration="184" complete="0" expand="false">
+            <task id="237" name="10.01 Pubblicazine bando" color="#8cb6ce" meeting="true" start="2012-06-03" duration="1" complete="0" expand="false">
+                <depend id="238" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="238" name="10.02 Termini per presentazione offerte" color="#ff0000" meeting="false" start="2012-06-04" duration="45" complete="0" expand="false">
+                <depend id="239" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="239" name="10.03 Seduta pubblica I (busta A)" color="#8cb6ce" meeting="true" start="2012-07-24" duration="1" complete="0" expand="false">
+                <depend id="240" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="240" name="10.04 Invio richiesta comprova art. 48" color="#8cb6ce" meeting="true" start="2012-07-26" duration="1" complete="0" expand="false">
+                <depend id="241" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="241" name="10.05 Termine ricezione documentazione art. 48" color="#ff0033" meeting="false" start="2012-07-27" duration="10" complete="0" expand="false">
+                <depend id="242" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="242" name="10.06 Valutazione della documentazione" color="#8cb6ce" meeting="false" start="2012-08-06" duration="10" complete="0" expand="false">
+                <depend id="243" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="243" name="10.07 Seduta pubblica II (apertura busta B)" color="#8cb6ce" meeting="true" start="2012-08-18" duration="1" complete="0" expand="false">
+                <depend id="244" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="244" name="10.08 Valutazione della CG" color="#8cb6ce" meeting="false" start="2012-08-20" duration="15" complete="0" expand="false">
+                <depend id="245" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="245" name="10.09 Seduta pubblica III (apertura busta C ed agg. provv.)" color="#8cb6ce" meeting="true" start="2012-09-05" duration="1" complete="0" expand="false">
+                <depend id="246" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="246" name="10.10 Aggiudicazione definitiva" color="#8cb6ce" meeting="true" start="2012-09-11" duration="1" complete="0" expand="false">
+                <depend id="247" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="247" name="10.11 Stand - still period" color="#ff0033" meeting="false" start="2012-09-12" duration="30" complete="0" expand="false">
+                <depend id="248" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="248" name="10.12 Stipula contratto" color="#8cb6ce" meeting="true" start="2012-10-17" duration="1" complete="0" expand="false"/>
+            <task id="250" name="10.13 Esecuzione verifica" color="#8cb6ce" meeting="false" start="2012-10-21" duration="30" complete="0" expand="true">
+                <depend id="251" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="251" name="10.14 Validazione PD da parte del RUP" color="#8cb6ce" meeting="false" start="2012-11-21" duration="15" complete="0" expand="true">
+                <depend id="156" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="155" name="5. Fase 5" meeting="false" start="2012-12-06" duration="96" complete="0" expand="false">
+            <task id="156" name="5.01 Invio richiesta a progettista di inviare n.X copie del PD" color="#8cb6ce" meeting="true" start="2012-12-06" duration="1" complete="0" expand="true">
+                <depend id="166" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="166" name="5.02 Invio richiesta a progettista di inviare asseverazione" color="#8cb6ce" meeting="true" start="2012-12-07" duration="1" complete="0" expand="false">
+                <depend id="165" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="165" name="5.03 Produzione n.X copie PP e asseverazione" color="#ffffcc" meeting="false" start="2012-12-09" duration="10" complete="0" expand="false">
+                <depend id="164" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="164" name="5.04 Invio a Sportello Unico di istanza attivazione Comm.LL.PP con copie progetti" color="#8cb6ce" meeting="true" start="2012-12-20" duration="1" complete="0" expand="false">
+                <depend id="163" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="163" name="5.05 Trasmissione docs per commissione LL.PP a Enti" color="#8cb6ce" meeting="true" start="2012-12-28" duration="1" complete="0" expand="false">
+                <depend id="162" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="162" name="5.06 Istruttoria regionale" color="#99ff99" meeting="false" start="2012-12-29" duration="30" complete="0" expand="false">
+                <depend id="161" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="161" name="5.07 Convocazione Commissione LL.PP" color="#99ff99" meeting="false" start="2013-01-30" duration="30" complete="0" expand="false">
+                <depend id="160" type="2" difference="3" hardness="Strong"/>
+            </task>
+            <task id="160" name="5.08 Svolgimento Commissione LL.PP" color="#8cb6ce" meeting="true" start="2013-03-04" duration="1" complete="0" expand="false">
+                <depend id="159" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="159" name="5.09 Comunicazione verbali a Sportello Unico" color="#8cb6ce" meeting="true" start="2013-03-10" duration="1" complete="0" expand="false">
+                <depend id="158" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="158" name="5.10 Invio deliberazione ad Insiel" color="#8cb6ce" meeting="true" start="2013-03-16" duration="1" complete="0" expand="false">
+                <depend id="180" type="2" difference="5" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="179" name="6. Fase 6" meeting="false" start="2013-03-22" duration="45" complete="0" expand="false">
+            <task id="180" name="6.01 Ordine di servizio a affidatario per adeguamento PD" color="#8cb6ce" meeting="true" start="2013-03-22" duration="1" complete="0" expand="true">
+                <depend id="183" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="183" name="6.02 Adeguamento del PD" color="#8cb6ce" meeting="false" start="2013-03-23" duration="30" complete="0" expand="true">
+                <depend id="186" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="186" name="6.03 Invio a Regione del progetto adeguato" color="#8cb6ce" meeting="true" start="2013-04-23" duration="1" complete="0" expand="true">
+                <depend id="188" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="188" name="6.04 Emissione del Decreto di approvazione del PD adeguato" color="#ffff99" meeting="false" start="2013-04-24" duration="10" complete="0" expand="true">
+                <depend id="191" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="191" name="6.05 Invio ad Insiel del Decreto di approvazione del PD adeguato" color="#8cb6ce" meeting="true" start="2013-05-07" duration="1" complete="0" expand="true">
+                <depend id="194" type="2" difference="5" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="193" name="7. Fase 7" meeting="false" start="2013-05-13" duration="181" complete="0" expand="false">
+            <task id="194" name="7.01 Stipula del contratto" color="#8cb6ce" meeting="true" start="2013-05-13" duration="1" complete="0" expand="true">
+                <depend id="196" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="196" name="7.02 Esecuzione PE e lavori" color="#8cb6ce" meeting="false" start="2013-05-14" duration="180" complete="0" expand="true"/>
+        </task>
+        <task id="198" name="8. Fase 8" meeting="false" start="2012-12-16" duration="136" complete="0" expand="false">
+            <task id="199" name="8.01 Pubblicazine bando" color="#8cb6ce" meeting="true" start="2012-12-16" duration="1" complete="0" expand="true">
+                <depend id="211" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="211" name="8.02 Termini per presentazione offerte" color="#ff0000" meeting="false" start="2012-12-17" duration="45" complete="0" expand="false">
+                <depend id="210" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="210" name="8.03 Seduta pubblica I (busta A)" color="#8cb6ce" meeting="true" start="2013-02-09" duration="1" complete="0" expand="false">
+                <depend id="209" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="209" name="8.04 Invio richiesta comprova art. 48" color="#8cb6ce" meeting="true" start="2013-02-11" duration="1" complete="0" expand="false">
+                <depend id="208" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="208" name="8.05 Termine ricezione documentazione art. 48" color="#ff0033" meeting="false" start="2013-02-12" duration="10" complete="0" expand="false">
+                <depend id="207" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="207" name="8.06 Valutazione della documentazione" color="#8cb6ce" meeting="false" start="2013-02-22" duration="10" complete="0" expand="false">
+                <depend id="206" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="206" name="8.07 Seduta pubblica II (apertura busta B)" color="#8cb6ce" meeting="true" start="2013-03-05" duration="1" complete="0" expand="false">
+                <depend id="205" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="205" name="8.08 Valutazione della CG" color="#8cb6ce" meeting="false" start="2013-03-07" duration="15" complete="0" expand="false">
+                <depend id="204" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="204" name="8.09 Seduta pubblica III (apertura busta C ed agg. provv.)" color="#8cb6ce" meeting="true" start="2013-03-23" duration="1" complete="0" expand="false">
+                <depend id="203" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="203" name="8.10 Aggiudicazione definitiva" color="#8cb6ce" meeting="true" start="2013-03-29" duration="1" complete="0" expand="false">
+                <depend id="202" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="202" name="8.11 Stand - still period" color="#ff0033" meeting="false" start="2013-03-30" duration="30" complete="0" expand="false">
+                <depend id="201" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="201" name="8.12 Stipula contratto" color="#8cb6ce" meeting="true" start="2013-05-06" duration="1" complete="0" expand="false"/>
+        </task>
+        <task id="222" name="9. Fase 9" meeting="false" start="2013-01-07" duration="121" complete="0" expand="false">
+            <task id="223" name="9.01 Pubblicazine bando" color="#8cb6ce" meeting="true" start="2013-01-07" duration="1" complete="0" expand="false">
+                <depend id="224" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="224" name="9.02 Termini per presentazione offerte" color="#ff0000" meeting="false" start="2013-01-08" duration="30" complete="0" expand="false">
+                <depend id="225" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="225" name="9.03 Seduta pubblica I (busta A)" color="#8cb6ce" meeting="true" start="2013-02-12" duration="1" complete="0" expand="false">
+                <depend id="226" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="226" name="9.04 Invio richiesta comprova art. 48" color="#8cb6ce" meeting="true" start="2013-02-14" duration="1" complete="0" expand="false">
+                <depend id="227" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="227" name="9.05 Termine ricezione documentazione art. 48" color="#ff0033" meeting="false" start="2013-02-15" duration="10" complete="0" expand="false">
+                <depend id="228" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="228" name="9.06 Valutazione della documentazione" color="#8cb6ce" meeting="false" start="2013-02-25" duration="10" complete="0" expand="false">
+                <depend id="229" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="229" name="9.07 Seduta pubblica II (apertura busta B)" color="#8cb6ce" meeting="true" start="2013-03-08" duration="1" complete="0" expand="false">
+                <depend id="230" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="230" name="9.08 Valutazione della CG" color="#8cb6ce" meeting="false" start="2013-03-10" duration="15" complete="0" expand="false">
+                <depend id="231" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="231" name="9.09 Seduta pubblica III (apertura busta C ed agg. provv.)" color="#8cb6ce" meeting="true" start="2013-03-26" duration="1" complete="0" expand="false">
+                <depend id="232" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="232" name="9.10 Aggiudicazione definitiva" color="#8cb6ce" meeting="true" start="2013-04-01" duration="1" complete="0" expand="false">
+                <depend id="233" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="233" name="9.11 Stand - still period" color="#ff0033" meeting="false" start="2013-04-02" duration="30" complete="0" expand="false">
+                <depend id="234" type="2" difference="5" hardness="Strong"/>
+            </task>
+            <task id="234" name="9.12 Stipula contratto" color="#8cb6ce" meeting="true" start="2013-05-09" duration="1" complete="0" expand="false"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="APA" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="339" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="68" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="73" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
