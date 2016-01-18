@@ -1,5 +1,13 @@
 # GanttProject Bug [523](https://github.com/bardsoftware/ganttproject/issues/523)
 
+## Steps
+
+
+    1.Enter tasks
+    2.Select all tasks
+    3.Cut tasks
+    4.Try to create a new task
+
 ## Patch
 
 ```

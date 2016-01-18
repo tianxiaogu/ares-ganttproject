@@ -1,5 +1,12 @@
 # GanttProject Bug [817](https://github.com/bardsoftware/ganttproject/issues/817)
 
+## Steps
+
+    1. Create a task
+    2. Open its properties
+    3. Clear "begin date" text field
+    4. Press Tab
+
 
 ## Patch
 

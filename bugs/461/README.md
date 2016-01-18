@@ -1,5 +1,23 @@
 # GanttProject Bug [461]()
 
+## Steps
+
+The following steps is copied from github bug report.
+
+    What steps will reproduce the problem?
+    1. Export to MS Project (both MSPDI and MPX)
+
+    What is the expected output? What do you see instead?
+    No output error message as shown below
+
+    What version of the product are you using? On what operating system?
+    GanttProject 2.5 Praha RC V (build 1008)
+    Windows 7 64 bit
+
+    Please provide any additional information below.
+    Error log attached
+
+
 ## Patch
 
 ```diff

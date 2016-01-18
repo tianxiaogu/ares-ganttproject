@@ -1,5 +1,14 @@
 # GanttProject Bug [465]()
 
+## Steps
+
+
+
+    1. Start GP
+    2. Create a new task 'task_0'
+    3. While task_0 is selected, press Ctrl+C and then Ctrl+V. "Copy_task_0" 
+    appears and becomes selected
+    4. Press F2
 
 ## Patch
 
