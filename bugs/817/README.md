@@ -2,11 +2,13 @@
 
 ## Steps
 
-    1. Create a task
-    2. Open its properties
-    3. Clear "begin date" text field
-    4. Press Tab
+1. Create a task
+2. Open its properties
+3. Clear "begin date" text field
+4. Press Tab
 
+SBET and FTET will leave this field in blank.
+VEOR and FER can restore to default value.
 
 ## Patch
 

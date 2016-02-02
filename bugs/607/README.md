@@ -1,5 +1,16 @@
 # GanttProject Bug [607](https://github.com/bardsoftware/ganttproject/issues/607)
 
+## Steps
+
+1. Run `run.sh <gantthome> bug.gan`
+2. Create a new task.
+3. SBET and FTER can successfully to create new task, but VOER and FER cannot.
+
+First, the NPE is transformed into XNIException, which is a runtime exception but can be handled
+by an error handler in `com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse`.
+This error handler transforms the XNIException into a SAXException.
+Finally, the error handler in GanttXMLOpen will catch and transform this SAXException into an IOException.
+
 ## Patch
 
 ```

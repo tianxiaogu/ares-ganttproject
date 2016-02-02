@@ -1,5 +1,12 @@
 # GanttProject Bug [844](https://github.com/bardsoftware/ganttproject/issues/844)
 
+## Steps
+
+1. No one can recover this error as 
+2. The version attached may not be the buggy version.
+   We cannot find #844 in the output of `git log`
+
+
 ## Patch
 
 ```

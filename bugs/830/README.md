@@ -1,5 +1,9 @@
 # GanttProject Bug [830](https://github.com/bardsoftware/ganttproject/issues/830)
 
+## Steps
+
+1. Open the buggy file
+
 ## Patch
 
 ```

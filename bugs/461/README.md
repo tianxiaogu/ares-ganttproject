@@ -1,4 +1,4 @@
-# GanttProject Bug [461]()
+# GanttProject Bug [461](https://github.com/bardsoftware/ganttproject/issues/461)
 
 ## Steps
 

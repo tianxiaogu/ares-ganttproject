@@ -3,10 +3,10 @@
 ## Steps
 
 
-    1.Enter tasks
-    2.Select all tasks
-    3.Cut tasks
-    4.Try to create a new task
+1. Enter tasks
+2. Select all tasks
+3. Cut tasks, only left panel displays empty items.
+4. --Try to create a new task--
 
 ## Patch
 

@@ -1,5 +1,9 @@
-# GanttProject Bug [708]()
+# GanttProject Bug [708](https://github.com/bardsoftware/ganttproject/issues/708)
 
+## Steps
+
+1. Export `bug.gan` to  MS project
+2. SBET and FTET cannot export. FER and VOER can export.
 
 ## Patch
 

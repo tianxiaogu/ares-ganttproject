@@ -1,5 +1,9 @@
 # GanttProject Bug [577](https://github.com/bardsoftware/ganttproject/issues/577)
 
+## Steps
+
+1. Copy a task having subtasks
+2. Paste task
 
 ## Patch
 

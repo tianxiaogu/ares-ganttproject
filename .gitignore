@@ -1,5 +1,15 @@
 src
 
 tmp
+buggy_ganttproject
+
+.ganttproject-*.log
 
 *.swp
+
+
+fer.txt
+voer.txt
+jpf.txt
+sbet.txt
+ftet.txt
